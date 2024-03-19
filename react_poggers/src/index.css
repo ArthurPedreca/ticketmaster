@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Averta Bold';
+    src: url('./fonts/AvertaDemo-ExtraBoldItalic.otf') format('truetype');
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Averta Bold';
+}
+
+
+.header{
+    position: fixed;
+    background-color: #024ddf;
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:40px ;
+    padding-right:40px ;
+}
+
+.header img{
+    filter: grayscale(1) brightness(5);
+    width: 140px;
+    height: 20px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:30px ;
+    padding-right:60px ;
+}
+
+.menu a p{
+    text-decoration: none;
+    width: auto;
+    color: white;
+    font-size: 15.4px;
+}
+
+.menu a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding: 20px;
+    text-decoration: none   ;
+}
+
+.menu a:hover{
+    background-color: #0046cb;
+}
